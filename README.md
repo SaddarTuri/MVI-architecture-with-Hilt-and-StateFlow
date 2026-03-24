@@ -16,4 +16,5 @@ Topic Covers:
 - Dagger Hilt (DI)
 - Retrofit
 - UseCase
-- Channel / SharedState
+- Channel / SharedFlow
+- StateFlow
