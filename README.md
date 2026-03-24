@@ -1,19 +1,19 @@
 # MVI-architecture-with-Hilt-and-StateFlow
 
-├── di/
-│   └── NetworkModule.kt          ← Hilt provides Retrofit, Repo
-├── data/
-│   ├── remote/
-│   │   ├── ApiService.kt         ← Retrofit interface
-│   │   └── dto/PostDto.kt        ← Raw API response
-│   └── repository/
-│       └── PostRepositoryImpl.kt ← implements domain interface
-├── domain/
-│   ├── model/Post.kt             ← clean domain model
-│   ├── repository/PostRepository.kt ← interface (no Android imports!)
-│   └── usecase/GetPostsUseCase.kt
-├── presentation/
-│   ├── PostViewModel.kt          ← MVI brain
-│   ├── PostContract.kt           ← UiState, UiIntent, UiEffect
-│   └── PostScreen.kt             ← Compose UI
-└── MainActivity.kt
+Post Feed:
+- Jetpack Compose
+- Calling Api for getting posts
+- Filters
+- Search
+- Detail List with Posts
+
+Topic Covers:
+- Model View Intent (MVI)
+- Uni Directional 
+- UiState, UiIntent, UiEffect
+- Compose UI
+- Clean Architecture
+- Dagger Hilt (DI)
+- Retrofit
+- UseCase
+- Channel / SharedState
